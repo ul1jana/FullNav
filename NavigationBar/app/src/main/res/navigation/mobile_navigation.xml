@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_upload">
+
+    <fragment
+        android:id="@+id/navigation_upload"
+        android:name="com.example.navibar.ui.upload.UploadFragment"
+        android:label="@string/title_upload"
+        tools:layout="@layout/fragment_upload" />
+
+    <fragment
+        android:id="@+id/navigation_tags"
+        android:name="com.example.navibar.ui.tags.TagsFragment"
+        android:label="@string/title_tags"
+        tools:layout="@layout/fragment_tags" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.example.navibar.ui.settings.SettingsFragment"
+        android:label="@string/title_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.navibar.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+</navigation>

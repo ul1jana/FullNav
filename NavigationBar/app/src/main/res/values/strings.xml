@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NaviBar</string>
+    <string name="title_upload">Upload</string>
+    <string name="title_tags">Tags</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_home">Home</string>
+
+</resources>
