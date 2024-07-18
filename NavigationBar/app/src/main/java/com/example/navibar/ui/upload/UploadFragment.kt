@@ -24,6 +24,7 @@ class UploadFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+
         val root = inflater.inflate(R.layout.fragment_upload, container, false)
 
         val bookListView = root.findViewById<ListView>(R.id.bookListView)
@@ -33,6 +34,10 @@ class UploadFragment : Fragment() {
         bookListView.adapter = bookAdapter
 
         addButton.setOnClickListener {
+            showAddBookDialog()
+        }
+        val uri = activity?.intent?.data
+        if (uri!=null){
             showAddBookDialog()
         }
 
