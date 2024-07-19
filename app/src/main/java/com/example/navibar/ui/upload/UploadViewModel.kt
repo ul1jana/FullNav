@@ -7,7 +7,7 @@ import androidx.lifecycle.ViewModel
 class UploadViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is upload Fragment"
+        value = "This is Save fragment"
     }
     val text: LiveData<String> = _text
 }
