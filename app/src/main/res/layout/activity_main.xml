@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/Light_Gray"
     tools:context=".MainActivity">
 
     <fragment
@@ -19,7 +20,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        app:menu="@menu/bottom_nav_menu" />
+        app:menu="@menu/bottom_nav_menu"
+        android:background="@color/Light_Gray"
+        app:itemIconTint="@color/black"
+        app:itemRippleColor="@color/Dark_Gray"
+        app:labelVisibilityMode="unlabeled"
+    />
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
 

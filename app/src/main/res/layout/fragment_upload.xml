@@ -18,7 +18,9 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="56dp"
-        android:text="Add Book" />
+        android:background="@color/Light_Gray"
+        android:text="Add Book"
+        android:textColor="@color/Dark_Gray"/>
 </RelativeLayout>
 
 

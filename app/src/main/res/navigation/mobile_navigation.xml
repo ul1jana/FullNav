@@ -8,23 +8,23 @@
     <fragment
         android:id="@+id/navigation_upload"
         android:name="com.example.navibar.ui.upload.UploadFragment"
-        android:label="@string/title_upload"
+        android:label="@string/title_save"
         tools:layout="@layout/fragment_upload" />
-
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.navibar.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/navigation_tags"
         android:name="com.example.navibar.ui.tags.TagsFragment"
         android:label="@string/title_tags"
         tools:layout="@layout/fragment_tags" />
 
-    <fragment
+    <!-- <fragment
         android:id="@+id/navigation_settings"
         android:name="com.example.navibar.ui.settings.SettingsFragment"
         android:label="@string/title_settings"
-        tools:layout="@layout/fragment_settings" />
-    <fragment
-        android:id="@+id/navigation_home"
-        android:name="com.example.navibar.ui.home.HomeFragment"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_settings" /> -->
+
 </navigation>
