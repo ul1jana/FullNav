@@ -9,11 +9,13 @@
         android:id="@+id/bookTitleTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Book Title" />
+        android:text="Book Title"
+        android:textColor="@color/Dark_Gray"/>
 
     <TextView
         android:id="@+id/bookAuthorTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Book Author" />
+        android:text="Book Author"
+        android:textColor="@color/Dark_Gray" />
 </LinearLayout>
