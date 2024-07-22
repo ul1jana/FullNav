@@ -3,10 +3,11 @@ package com.example.navibar.ui
 import androidx.lifecycle.LiveData
 import androidx.room.Dao
 import androidx.room.Insert
-import com.example.navibar.ui.Book
+import androidx.room.Query
 
 @Dao
 interface BookDao {
+    @Query("SELECT * FROM Book")
     fun getAllBooks(): LiveData<List<Book>>
 
     @Insert

@@ -3,11 +3,5 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Antiteses" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/NavBar/NavBar" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/NaviBar/FullNav" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/NavigationBar/app/as" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/PdfFileOpenAndShareExample" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/storage-samples" vcs="Git" />
   </component>
 </project>
