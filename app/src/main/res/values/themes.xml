@@ -3,7 +3,7 @@
     <style name="Theme.NaviBar" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/Light_Gray</item>
-        <item name="colorPrimaryVariant">@color/Light_Gray10</item>
+        <item name="colorPrimaryVariant">@color/Light_Gray_10</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
