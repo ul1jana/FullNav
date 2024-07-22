@@ -1,13 +1,22 @@
 package com.example.navibar.ui.home
 
+import android.app.Application
+import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
-import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
+import com.example.navibar.ui.Book
+import com.example.navibar.ui.BookDatabase
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
 
-class HomeViewModel : ViewModel() {
+class HomeViewModel(application: Application) : AndroidViewModel(application) {
 
-    private val _text = MutableLiveData<String>().apply {
-        value = "This is home Fragment"
+    private val bookDao = BookDatabase.getDatabase(application).bookDao()
+    val books: LiveData<List<Book>> = bookDao.getAllBooks()
+
+    fun addBook(book: Book) {
+        viewModelScope.launch(Dispatchers.IO) {
+            bookDao.insert(book)
+        }
     }
-    val text: LiveData<String> = _text
 }

@@ -1,0 +1,5 @@
+com.example.navibar.test.app-core-1.6.1-0 C:\Users\u.jana.a.gina\.gradle\caches\transforms-4\0ba966aaeaeb81e8b2b1d277cdfd2807\transformed\core-1.6.1\res
+com.example.navibar.test.app-androidTest-1 C:\Users\u.jana.a.gina\Documents\NavigationBar\app\build\generated\res\resValues\androidTest\debug
+com.example.navibar.test.app-mergeDebugAndroidTestResources-2 C:\Users\u.jana.a.gina\Documents\NavigationBar\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.navibar.test.app-mergeDebugAndroidTestResources-3 C:\Users\u.jana.a.gina\Documents\NavigationBar\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.navibar.test.app-debugAndroidTest-4 C:\Users\u.jana.a.gina\Documents\NavigationBar\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

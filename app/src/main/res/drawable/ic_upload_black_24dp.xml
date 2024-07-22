@@ -122,11 +122,11 @@
       android:fillColor="#222022"/>
   <path
       android:pathData="m541,240 l7,6 4,5 -2,1 -6,-7 -3,-1 -1,-3z"
-     />
+      android:fillColor="#232122"/>
   <path
       android:pathData="m804,703h1v10l-4,1 1,-4v-2,-3h2z"
-      />
+      android:fillColor="#211E20"/>
   <path
       android:pathData="m204,661 l2,1 1,9h-4z"
-      />
+      android:fillColor="#211E20"/>
 </vector>
