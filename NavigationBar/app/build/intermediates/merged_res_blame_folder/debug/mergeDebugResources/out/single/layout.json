@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "C:\\Users\\u.jana.a.gina\\.gradle\\daemon\\8.7\\com.example.navibar.app-mergeDebugResources-47:\\layout\\fragment_tags.xml",
+        "source": "C:\\Users\\u.jana.a.gina\\.gradle\\daemon\\8.7\\com.example.navibar.app-main-50:\\layout\\fragment_tags.xml"
+    },
+    {
+        "merged": "C:\\Users\\u.jana.a.gina\\.gradle\\daemon\\8.7\\com.example.navibar.app-mergeDebugResources-47:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\u.jana.a.gina\\.gradle\\daemon\\8.7\\com.example.navibar.app-main-50:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\u.jana.a.gina\\.gradle\\daemon\\8.7\\com.example.navibar.app-mergeDebugResources-47:\\layout\\list_item.xml",
+        "source": "C:\\Users\\u.jana.a.gina\\.gradle\\daemon\\8.7\\com.example.navibar.app-main-50:\\layout\\list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\u.jana.a.gina\\.gradle\\daemon\\8.7\\com.example.navibar.app-mergeDebugResources-47:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\u.jana.a.gina\\.gradle\\daemon\\8.7\\com.example.navibar.app-main-50:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\u.jana.a.gina\\.gradle\\daemon\\8.7\\com.example.navibar.app-mergeDebugResources-47:\\layout\\fragment_settings.xml",
+        "source": "C:\\Users\\u.jana.a.gina\\.gradle\\daemon\\8.7\\com.example.navibar.app-main-50:\\layout\\fragment_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\u.jana.a.gina\\.gradle\\daemon\\8.7\\com.example.navibar.app-mergeDebugResources-47:\\layout\\fragment_upload.xml",
+        "source": "C:\\Users\\u.jana.a.gina\\.gradle\\daemon\\8.7\\com.example.navibar.app-main-50:\\layout\\fragment_upload.xml"
+    },
+    {
+        "merged": "com.example.navibar.app-mergeDebugResources-47:/layout/fragment_settings.xml",
+        "source": "com.example.navibar.app-main-50:/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\u.jana.a.gina\\.gradle\\daemon\\8.7\\com.example.navibar.app-mergeDebugResources-47:\\layout\\fragment_dashboard.xml",
+        "source": "C:\\Users\\u.jana.a.gina\\.gradle\\daemon\\8.7\\com.example.navibar.app-main-50:\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\u.jana.a.gina\\.gradle\\daemon\\8.7\\com.example.navibar.app-mergeDebugResources-47:\\layout\\fragment_notifications.xml",
+        "source": "C:\\Users\\u.jana.a.gina\\.gradle\\daemon\\8.7\\com.example.navibar.app-main-50:\\layout\\fragment_notifications.xml"
+    },
+    {
+        "merged": "C:\\Users\\u.jana.a.gina\\.gradle\\daemon\\8.7\\com.example.navibar.app-mergeDebugResources-47:\\layout\\dialog_add_book.xml",
+        "source": "C:\\Users\\u.jana.a.gina\\.gradle\\daemon\\8.7\\com.example.navibar.app-main-50:\\layout\\dialog_add_book.xml"
+    }
+]

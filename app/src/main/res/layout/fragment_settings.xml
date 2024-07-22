@@ -4,9 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.settings.SettingsFragment"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://schemas.android.com/apk/res-auto ">
+    tools:context="com.example.navibar.ui.settings.SettingsFragment">
 
     <TextView
         android:id="@+id/text_settings"

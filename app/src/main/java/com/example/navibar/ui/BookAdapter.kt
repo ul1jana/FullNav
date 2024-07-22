@@ -1,4 +1,4 @@
-package com.example.navibar.uiimport
+package com.example.navibar.ui
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
@@ -6,7 +6,6 @@ import android.view.ViewGroup
 import android.widget.BaseAdapter
 import android.widget.TextView
 import com.example.navibar.R
-import com.example.navibar.ui.Book
 
 class BookAdapter(private val context: Context, private val books: ArrayList<Book>) : BaseAdapter() {
 

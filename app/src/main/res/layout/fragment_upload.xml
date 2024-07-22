@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".ui.upload.UploadFragment">
 
-    <!-- ListView or other content above the button -->
-    <ListView
-        android:id="@+id/bookListView"
+    <EditText
+        android:id="@+id/bookTitleInput"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_above="@id/addButton" />
+        android:layout_height="wrap_content"
+        android:hint="Book Title" />
+
+    <EditText
+        android:id="@+id/bookAuthorInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Book Author" />
+
     <Button
         android:id="@+id/addButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="56dp"
-        android:background="@color/Light_Gray"
-        android:text="Add Book"
-        android:textColor="@color/Dark_Gray"/>
-</RelativeLayout>
+        android:text="Add Book" />
 
-
+</LinearLayout>

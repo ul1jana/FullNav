@@ -9,6 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.navibar.databinding.FragmentTagsBinding
 
+
 class TagsFragment : Fragment() {
 
     private var _binding: FragmentTagsBinding? = null
@@ -23,7 +24,7 @@ class TagsFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         val tagsViewModel =
-            ViewModelProvider(this).get(TagsViewModel::class.java)
+            ViewModelProvider(this)[TagsViewModel::class.java]
 
         _binding = FragmentTagsBinding.inflate(inflater, container, false)
         val root: View = binding.root
