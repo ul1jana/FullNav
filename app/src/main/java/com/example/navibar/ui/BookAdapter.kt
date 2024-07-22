@@ -22,7 +22,9 @@ class BookAdapter(private val context: Context, private val books: ArrayList<Boo
     }
 
     override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View {
-        val view: View = convertView ?: LayoutInflater.from(context).inflate(R.layout.list_item, parent, false)
+        val view: View = convertView ?: LayoutInflater.from(context).inflate(
+            R.layout.list_item, parent, false
+        )
 
         val bookTitleTextView = view.findViewById<TextView>(R.id.bookTitleTextView)
         val bookAuthorTextView = view.findViewById<TextView>(R.id.bookAuthorTextView)
