@@ -10,7 +10,6 @@
         <item name="colorSecondaryVariant">@color/Light_Gray</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Customize your theme here. -->
-
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
@@ -19,5 +18,9 @@
         <item name="colorError">@color/Red</item>
 
     </style>
-
+  
+    <style name="Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_screen</item>
+        <item name="postSplashScreenTheme">@style/Theme.AppCompat.DayNight</item>
+    </style>
 </resources>

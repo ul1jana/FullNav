@@ -4,5 +4,9 @@
     <string name="title_tags">Tags</string>
     <string name="title_settings">Settings</string>
     <string name="title_home">Home</string>
+    <string name="add_book">Add Book</string>
+    <string name="book_author">Book Author</string>
+    <string name="book_title">Book Title</string>
+    <string name="title_activity_splash_screen">activity_splash_screen</string>
 
 </resources>
