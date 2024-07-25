@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/nav_host_fragment"
@@ -19,6 +20,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:background="@color/Mid_gray_40"
-        app:menu="@menu/bottom_nav_menu" />
+        android:background="?attr/colorPrimaryVariant"
+        app:menu="@menu/bottom_nav_menu"
+        app:itemIconSize="25dp"
+        app:itemRippleColor="?attr/colorPrimaryVariant"
+        app:itemIconTint="@drawable/item_selector"
+        app:labelVisibilityMode="unlabeled"
+        />
 </RelativeLayout>
