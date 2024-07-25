@@ -6,23 +6,44 @@
     app:startDestination="@id/navigation_home">
 
     <fragment
-        android:id="@+id/navigation_upload"
-        android:name="com.example.navibar.ui.upload.UploadFragment"
-        tools:layout="@layout/fragment_upload" />
-
-    <fragment
     android:id="@+id/navigation_home"
     android:name="com.example.navibar.ui.home.HomeFragment"
-    tools:layout="@layout/fragment_home" />
-
-    <!--<fragment
-        android:id="@+id/navigation_settings"
-        android:name="com.example.navibar.ui.settings.SettingsFragment"
-        tools:layout="@layout/fragment_settings" />-->
+    android:label="@string/title_home"
+    tools:layout="@layout/fragment_home">
+    <action
+        android:id="@+id/action_navigation_home_to_bookDetailFragment"
+        app:destination="@id/bookDetailFragment" />
+    </fragment>
 
     <fragment
-        android:id="@+id/navigation_tags"
-        android:name="com.example.navibar.ui.tags.TagsFragment"
-        tools:layout="@layout/fragment_tags" />
+    android:id="@+id/navigation_tags"
+    android:name="com.example.navibar.ui.tags.TagsFragment"
+    tools:layout="@layout/fragment_tags" />
 
+    <fragment
+    android:id="@+id/navigation_upload"
+    android:name="com.example.navibar.ui.upload.UploadFragment"
+    android:label="@string/title_upload"
+    tools:layout="@layout/fragment_upload" />
+
+    <fragment
+    android:id="@+id/bookDetailFragment"
+    android:label="Book Details"
+    tools:layout="@layout/fragment_book_detail">
+    <argument
+        android:name="bookTitle"
+        app:argType="string" />
+    <argument
+        android:name="bookAuthor"
+        app:argType="string" />
+    <argument
+        android:name="bookPages"
+        app:argType="integer" />
+    <argument
+        android:name="bookDescription"
+        app:argType="string" />
+    <argument
+        android:name="bookComments"
+        app:argType="string" />
+    </fragment>
 </navigation>

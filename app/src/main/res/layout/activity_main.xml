@@ -22,3 +22,8 @@
         android:background="@color/Mid_gray_40"
         app:menu="@menu/bottom_nav_menu" />
 </RelativeLayout>
+
+
+
+
+

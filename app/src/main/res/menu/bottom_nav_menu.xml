@@ -5,7 +5,8 @@
         android:icon="@drawable/ic_upload_black_24dp" />
     <item
         android:id="@+id/navigation_home"
-        android:icon="@drawable/ic_home_black_24dp" />
+        android:icon="@drawable/ic_home_black_24dp"
+        />
     <item
         android:id="@+id/navigation_tags"
         android:icon="@drawable/ic_tags_black_24dp" />
