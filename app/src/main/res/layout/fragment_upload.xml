@@ -4,7 +4,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/Light_Gray"
     tools:context=".ui.upload.UploadFragment">
 
     <EditText
@@ -17,7 +16,7 @@
         android:id="@+id/bookAuthorInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Book Author" />
+        android:hint="Book Author"/>
 
     <Button
         android:id="@+id/addButton"
@@ -25,7 +24,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:backgroundTint="@color/Light_Green"
+        android:textColor="@color/Dark_Gray"
         android:text="Add Book"
-        android:textColor="@color/Dark_Gray"/>
+        />
 
 </LinearLayout>
