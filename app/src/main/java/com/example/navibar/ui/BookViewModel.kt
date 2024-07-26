@@ -17,7 +17,7 @@ class BookViewModel(private val bookDao: BookDao) : ViewModel() {
             bookDao.insert(book)
         }
     }
-    private val repository: BookRepository = BookRepository(application)
+    private val repository: BookRepository = BookRepository(bookDao)
 
     fun insert(book: Book) = viewModelScope.launch {
         repository.insert(book)

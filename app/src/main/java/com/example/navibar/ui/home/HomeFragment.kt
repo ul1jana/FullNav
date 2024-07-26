@@ -26,14 +26,14 @@ class HomeFragment : Fragment() {
 
         // Initialize BookRepository and HomeViewModel
         val bookDao = BookDatabase.getDatabase(requireContext()).bookDao()
-        val repository = BookRepository(requireActivity().application)
-        val factory = HomeViewModelFactory(repository)
+        val repository = BookRepository(bookDao)
+        val factory = HomeViewModelFactory(bookDao)
         homeViewModel = ViewModelProvider(this, factory).get(HomeViewModel::class.java)
 
         // Observe LiveData
         homeViewModel.allBooks.observe(viewLifecycleOwner) { books ->
             // Update your UI with the list of books
-            binding.bookListView.adapter = BookAdapter(books)
+            //binding.bookListView.adapter = BookAdapter(books)
         }
 
         return root
