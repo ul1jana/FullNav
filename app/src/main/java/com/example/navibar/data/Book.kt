@@ -1,9 +1,9 @@
-package com.example.navibar.ui
+package com.example.navibar.data
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
-@Entity(tableName = "books")
+@Entity(tableName = "book_table")
 data class Book(
     @PrimaryKey(autoGenerate = true) val id: Int = 0,
     val title: String,

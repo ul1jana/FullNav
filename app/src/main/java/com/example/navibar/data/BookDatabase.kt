@@ -1,29 +1,26 @@
-package com.example.navibar.ui
+package com.example.navibar.data
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.example.navibar.ui.Book
-import com.example.navibar.ui.BookDao
 
 @Database(entities = [Book::class], version = 1, exportSchema = false)
 abstract class BookDatabase : RoomDatabase() {
+
     abstract fun bookDao(): BookDao
 
     companion object {
         @Volatile
-        private var INSTANCE: BookDatabase? = null
+        private var instance: BookDatabase? = null
 
-        fun getDatabase(context: Context): BookDatabase {
-            return INSTANCE ?: synchronized(this) {
-                val instance = Room.databaseBuilder(
+        fun getInstance(context: Context): BookDatabase {
+            return instance ?: synchronized(this) {
+                instance ?: Room.databaseBuilder(
                     context.applicationContext,
                     BookDatabase::class.java,
                     "book_database"
-                ).build()
-                INSTANCE = instance
-                instance
+                ).build().also { instance = it }
             }
         }
     }

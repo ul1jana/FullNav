@@ -1,54 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android">
-
     <data>
         <variable
             name="viewModel"
-            type="com.example.navibar.ui.BookDetailViewModel" />
+            type="com.example.navibar.ui.bookdetail.BookDetailViewModel" />
     </data>
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:orientation="vertical"
         android:padding="16dp">
 
         <TextView
             android:id="@+id/textViewTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="24sp"
-            android:text="@{viewModel.title}" />
+            android:textSize="18sp"
+            android:text="Title" />
 
         <TextView
             android:id="@+id/textViewAuthor"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/textViewTitle"
-            android:textSize="20sp"
-            android:text="@{viewModel.author}" />
-
-        <TextView
-            android:id="@+id/textViewDescription"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/textViewAuthor"
             android:textSize="16sp"
-            android:text="@{viewModel.description}" />
+            android:text="Author" />
 
         <TextView
             android:id="@+id/textViewPages"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/textViewDescription"
             android:textSize="16sp"
-            android:text="@{viewModel.pages}" />
+            android:text="Pages" />
 
         <TextView
-            android:id="@+id/textViewComments"
+            android:id="@+id/textViewDescription"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/textViewPages"
             android:textSize="16sp"
-            android:text="@{viewModel.comments}" />
-    </RelativeLayout>
+            android:text="Description" />
+
+        <TextView
+            android:id="@+id/textViewComment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Comment" />
+
+    </LinearLayout>
 </layout>

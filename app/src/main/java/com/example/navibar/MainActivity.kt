@@ -7,11 +7,14 @@ import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.NavigationUI
 import androidx.navigation.ui.setupActionBarWithNavController
+import com.example.navibar.data.BookDatabase
+import com.example.navibar.data.BookRepository
 import com.example.navibar.databinding.ActivityMainBinding
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {
-
+    val database: BookDatabase by lazy { BookDatabase.getInstance(this) }
+    val repository: BookRepository by lazy { BookRepository(database.bookDao()) }
     private lateinit var navController: NavController
     private lateinit var appBarConfiguration: AppBarConfiguration
 

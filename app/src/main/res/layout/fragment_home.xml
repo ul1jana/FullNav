@@ -2,20 +2,27 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android">
     <data>
         <variable
-            name="book"
-            type="com.example.navibar.data.Book" />
+            name="viewModel"
+            type="com.example.navibar.ui.home.HomeViewModel" />
     </data>
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
 
-        <RecyclerView
-            android:id="@+id/recyclerView"
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/bookListView"
             android:layout_width="match_parent"
+<<<<<<< Updated upstream
             android:layout_height="match_parent"
             android:layout_margin="16dp"
             android:layout_alignParentTop="true"
             android:textColor="?attr/colorSecondary"
                       />
     </RelativeLayout>
+=======
+            android:layout_height="match_parent" />
+    </LinearLayout>
+>>>>>>> Stashed changes
 </layout>
